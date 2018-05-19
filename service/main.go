@@ -220,7 +220,7 @@ func handlerPost(w http.ResponseWriter, r *http.Request) {
     saveToES(p, id)
 
     // Save to BigTable.
-<<<<<<< HEAD
+
     saveToBigTable(p, id)
 
 }
@@ -250,9 +250,8 @@ func saveToBigTable(p *Post, id string) {
     }
     fmt.Printf("Post is saved to BigTable: %s\n", p.Message)
 
-=======
+
     //saveToBigTable(p, id)
->>>>>>> e79da8bb9d99cc4f4141445f834f6e85d1192c8e
 
 }
 
