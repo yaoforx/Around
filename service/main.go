@@ -15,13 +15,9 @@ import (
     "github.com/auth0/go-jwt-middleware"
     "github.com/dgrijalva/jwt-go"
     "github.com/gorilla/mux"
-
-<<<<<<< HEAD
 	"cloud.google.com/go/bigtable"
 
 
-=======
->>>>>>> e79da8bb9d99cc4f4141445f834f6e85d1192c8e
 )
 
 type Location struct {
